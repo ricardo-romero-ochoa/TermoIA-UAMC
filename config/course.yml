@@ -4,6 +4,11 @@ course:
   degree: "Licenciatura en Biología Molecular"
   uea_name: "Introducción a la Termodinámica"
   uea_code: "4603003"
+  curricular_status: "Obligatoria"
+  credits: 10
+  official_theory_hours_per_week: 4
+  official_practice_hours_per_week: 2
+  curricular_window: "IV-VI"
   weeks: 12
   hours_per_week: 6
   default_session_minutes: 120

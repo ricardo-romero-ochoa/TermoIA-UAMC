@@ -1,0 +1,13 @@
+TermoIA-UAMC usa licencia dual por tipo de archivo:
+
+1. Materiales docentes, documentación, actividades, guías y plantillas:
+   Creative Commons Attribution 4.0 International (CC BY 4.0).
+   Véase LICENSE-MATERIALS.md.
+
+2. Código Python y Jupyter notebooks:
+   MIT License.
+   Véase LICENSE-CODE.txt.
+
+Cuando un archivo combine texto docente y código, puede reutilizarse bajo los términos
+aplicables a cada componente; para una redistribución integral del archivo se recomienda
+conservar ambas atribuciones/licencias.
