@@ -1,0 +1,21 @@
+{
+  "title": "TermoIA-UAMC: actividades con IA y DUA para Introducción a la Termodinámica",
+  "upload_type": "lesson",
+  "description": "Repositorio abierto y versionable de actividades de enseñanza y aprendizaje con inteligencia artificial y Diseño Universal para el Aprendizaje para la UEA 4603003, Introducción a la Termodinámica, Licenciatura en Biología Molecular, UAM Cuajimalpa.",
+  "creators": [
+    {
+      "name": "Romero Ochoa, Ricardo",
+      "orcid": "0000-0002-4589-2984"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "thermodynamics",
+    "biomolecular thermodynamics",
+    "artificial intelligence",
+    "universal design for learning",
+    "open educational resources"
+  ],
+  "language": "spa",
+  "version": "1.0.0"
+}

@@ -1,0 +1,20 @@
+course:
+  institution: "Universidad Autónoma Metropolitana, Unidad Cuajimalpa"
+  division: "Ciencias Naturales e Ingeniería"
+  degree: "Licenciatura en Biología Molecular"
+  uea_name: "Introducción a la Termodinámica"
+  uea_code: "4603003"
+  weeks: 12
+  hours_per_week: 6
+  default_session_minutes: 120
+  statistics_in_scope: false
+repository:
+  name: "TermoIA-UAMC"
+  version: "1.0.0"
+  stable_activity_id_pattern: "TIA-Wxx-Sy"
+ai:
+  vendor_neutral: true
+  realtime_ai_required: false
+  provenance_log_required: true
+udl:
+  framework: "CAST UDL Guidelines 3.0"

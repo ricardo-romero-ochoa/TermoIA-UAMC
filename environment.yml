@@ -1,0 +1,9 @@
+name: termoia-uamc
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11
+  - numpy>=2.0
+  - matplotlib>=3.9
+  - jupyterlab>=4.2
+  - nbformat>=5.10

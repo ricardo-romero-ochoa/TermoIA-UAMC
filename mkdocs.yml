@@ -1,0 +1,14 @@
+site_name: TermoIA-UAMC
+site_description: IA auditable y DUA para Introducción a la Termodinámica, UAM Cuajimalpa
+nav:
+  - Inicio: docs/index.md
+  - Mapa del curso: docs/00_mapa_curso.md
+  - Modelo pedagógico: docs/01_modelo_pedagogico.md
+  - Guía docente: docs/02_guia_docente.md
+  - Guía estudiante: docs/03_guia_estudiante.md
+  - Política de IA: docs/04_politica_ia.md
+  - DUA y accesibilidad: docs/05_dua_accesibilidad.md
+  - Evaluación: docs/06_evaluacion_rubricas.md
+  - Bibliografía: docs/07_bibliografia.md
+  - Versionado y citación: docs/08_versionado_citacion.md
+  - Operación trimestral: docs/09_operacion_trimestral.md

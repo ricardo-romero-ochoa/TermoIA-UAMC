@@ -1,0 +1,16 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "TermoIA-UAMC",
+  "version": "1.0.0",
+  "datePublished": "2026-09-10",
+  "description": "Repositorio docente abierto para enseñanza de termodinámica biomolecular con IA auditable y DUA.",
+  "author": [{
+    "@type": "Person",
+    "givenName": "Ricardo",
+    "familyName": "Romero Ochoa",
+    "@id": "https://orcid.org/0000-0002-4589-2984"
+  }],
+  "license": ["https://creativecommons.org/licenses/by/4.0/", "https://opensource.org/license/mit"],
+  "programmingLanguage": ["Python", "Jupyter Notebook"]
+}

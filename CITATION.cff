@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Si utiliza este repositorio, cite la versión específica empleada."
+title: "TermoIA-UAMC: actividades con IA y DUA para Introducción a la Termodinámica"
+type: software
+authors:
+  - family-names: "Romero Ochoa"
+    given-names: "Ricardo"
+    orcid: "https://orcid.org/0000-0002-4589-2984"
+version: "1.0.0"
+date-released: "2026-09-10"
+license: "CC-BY-4.0 AND MIT"
+abstract: >-
+  Repositorio abierto, versionable y citable de actividades de enseñanza y aprendizaje
+  con inteligencia artificial y Diseño Universal para el Aprendizaje para la UEA 4603003,
+  Introducción a la Termodinámica, de la Licenciatura en Biología Molecular de la UAM Cuajimalpa.
+keywords:
+  - thermodynamics
+  - biomolecular thermodynamics
+  - artificial intelligence
+  - universal design for learning
+  - open educational resources
+  - UAM Cuajimalpa

@@ -1,0 +1,10 @@
+assessment_default:
+  actividades_formativas_y_bitacora_ia: 20
+  problemas_y_micro_simulaciones: 20
+  practicas_experimentales_3x8: 24
+  evaluaciones_integradoras: 20
+  proyecto_final_defensa: 16
+  total: 100
+notes:
+  - "Las ponderaciones son una configuración sugerida; la UEA puede conservar la ponderación oficial/docente del syllabus del trimestre."
+  - "No se evalúa la elocuencia de una salida de IA; se evalúan razonamiento, verificación, trazabilidad y comunicación científica."
