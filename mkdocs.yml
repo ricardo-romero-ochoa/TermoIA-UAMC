@@ -1,16 +1,86 @@
 site_name: TermoIA-UAMC
-site_description: IA auditable y DUA para Introducción a la Termodinámica, UAM Cuajimalpa
+site_description: IA auditable y Diseño Universal para el Aprendizaje en Introducción a la Termodinámica, UAM Cuajimalpa
+site_author: Ricardo Romero Ochoa
+copyright: Materiales docentes CC BY 4.0 · Código MIT
+
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+  icon:
+    logo: material/flask-outline
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - assets/javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - assets/stylesheets/extra.css
+
 nav:
-  - Inicio: docs/index.md
-  - Mapa del curso: docs/00_mapa_curso.md
-  - Modelo pedagógico: docs/01_modelo_pedagogico.md
-  - Guía docente: docs/02_guia_docente.md
-  - Guía estudiante: docs/03_guia_estudiante.md
-  - Política de IA: docs/04_politica_ia.md
-  - DUA y accesibilidad: docs/05_dua_accesibilidad.md
-  - Evaluación: docs/06_evaluacion_rubricas.md
-  - Bibliografía: docs/07_bibliografia.md
-  - Versionado y citación: docs/08_versionado_citacion.md
-  - Operación trimestral: docs/09_operacion_trimestral.md
-  - Biblioteca de prompts: docs/10_biblioteca_prompts.md
-  - Matriz DUA-IA: docs/11_matriz_dua_ia.md
+  - Inicio: index.md
+  - Para estudiantes:
+      - Guía del estudiante: 03_guia_estudiante.md
+      - Mapa del curso: 00_mapa_curso.md
+      - Política de IA: 04_politica_ia.md
+      - Banco de salidas de IA: actividades/banco_salidas_ia_estudiante.md
+      - Plantillas:
+          - Bitácora de IA: plantillas/bitacora_ia.md
+          - Informe de práctica: plantillas/informe_practica.md
+          - Evidencia multiformato: plantillas/evidencia_multiformato.md
+  - Curso:
+      - Índice de semanas: semanas.md
+      - Semana 01: semanas/semana_01.md
+      - Semana 02: semanas/semana_02.md
+      - Semana 03: semanas/semana_03.md
+      - Semana 04: semanas/semana_04.md
+      - Semana 05: semanas/semana_05.md
+      - Semana 06: semanas/semana_06.md
+      - Semana 07: semanas/semana_07.md
+      - Semana 08: semanas/semana_08.md
+      - Semana 09: semanas/semana_09.md
+      - Semana 10: semanas/semana_10.md
+      - Semana 11: semanas/semana_11.md
+      - Semana 12: semanas/semana_12.md
+  - Prácticas:
+      - P01 · Calorimetría: practicas/P01_calorimetria_mezclas.md
+      - P02 · Hielo y sal: practicas/P02_hielo_sal_potencial_quimico.md
+      - P03 · Osmosis: practicas/P03_osmosis_tejido_vegetal.md
+  - Recursos computacionales: 12_recursos_computacionales.md
+  - Para docentes:
+      - Guía docente: 02_guia_docente.md
+      - Modelo pedagógico: 01_modelo_pedagogico.md
+      - DUA y accesibilidad: 05_dua_accesibilidad.md
+      - Evaluación y rúbricas: 06_evaluacion_rubricas.md
+      - Operación trimestral: 09_operacion_trimestral.md
+      - Biblioteca de prompts: 10_biblioteca_prompts.md
+      - Matriz DUA–IA: 11_matriz_dua_ia.md
+      - Plantilla de actividad: plantillas/ficha_actividad.md
+  - Proyecto:
+      - Bibliografía: 07_bibliografia.md
+      - Versionado y citación: 08_versionado_citacion.md
+      - Cómo citar: 13_citar_proyecto.md

@@ -1,0 +1,6 @@
+/* Ajustes modestos de legibilidad y accesibilidad sin sustituir el tema. */
+.md-typeset { line-height: 1.65; }
+.md-typeset :focus-visible,
+.md-header :focus-visible,
+.md-tabs :focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }
+.md-typeset table:not([class]) { font-size: 0.82rem; }

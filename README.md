@@ -1,119 +1,79 @@
 # TermoIA-UAMC
 
-**Repositorio abierto de actividades de enseñanza y aprendizaje con inteligencia artificial y Diseño Universal para el Aprendizaje (DUA) para la UEA 4603003, Introducción a la Termodinámica, Licenciatura en Biología Molecular, UAM Cuajimalpa.**
+**Repositorio abierto de enseñanza y aprendizaje con inteligencia artificial auditable y Diseño Universal para el Aprendizaje (DUA) para Introducción a la Termodinámica, Licenciatura en Biología Molecular, UAM Cuajimalpa.**
 
-**Versión:** 1.0.0 · **Fecha de liberación:** 2026-09-10 · **Idioma principal:** español
+**Versión:** 1.1.0 · **Fecha de liberación:** 2026-09-14 · **Idioma principal:** español
 
-## Propósito
+## Comenzar
 
-TermoIA-UAMC convierte un curso de termodinámica de 12 semanas en una secuencia reproducible de experiencias de aprendizaje en las que la IA se usa como **interlocutor falible**, no como fuente de autoridad. El ciclo transversal es:
+- [START_HERE.md](START_HERE.md)
+- Estudiantes: `docs/03_guia_estudiante.md`
+- Docentes: `docs/02_guia_docente.md`
+- Activar el sitio: [GITHUB_PAGES_SETUP.md](GITHUB_PAGES_SETUP.md)
 
-> **Predecir → interrogar/retar a la IA → verificar → explicar → documentar evidencia.**
+La interfaz recomendada para estudiantes es **GitHub Pages**. El repositorio conserva las fuentes, notebooks, historial y metadatos de citación.
 
-El repositorio está pensado para ser permanente, versionable y citable. Los contenidos nucleares no dependen de una marca o modelo de IA; las actividades pueden ejecutarse con un asistente generativo disponible, con un modelo local o, cuando no haya acceso, con el banco de salidas de IA incluido en el repositorio.
+## Principio pedagógico
 
-## Contexto curricular
+> **Predecir → Interrogar → Verificar → Explicar → Documentar (PIVED).**
 
-- Institución: Universidad Autónoma Metropolitana, Unidad Cuajimalpa.
-- División: Ciencias Naturales e Ingeniería.
-- Licenciatura: Biología Molecular.
-- UEA: **Introducción a la Termodinámica (4603003)**.
-- Estructura adoptada del syllabus docente: **12 semanas, 6 h por semana**, organizadas normalmente en tres sesiones de 2 h; las prácticas pueden ocupar bloques distintos.
-- Alcance: termodinámica clásica y biomolecular introductoria. **No se incluye estadística inferencial**.
-- Prácticas: tres experiencias de bajo costo y sin equipo especializado de laboratorio.
+La IA funciona como interlocutor falible. Una salida generada no cuenta como evidencia por sí sola: debe auditarse mediante termodinámica, matemáticas, simulación, experimento o fuentes académicas.
 
-## Qué hace diferente a este repositorio
+## Contenido
 
-1. **IA auditable:** toda salida relevante de IA se trata como una afirmación que debe clasificarse, verificarse y, si procede, corregirse.
-2. **DUA desde el diseño:** cada actividad ofrece opciones equivalentes de representación, acción/expresión y participación sin reducir el nivel conceptual.
-3. **Evidencia de aprendizaje trazable:** cada actividad tiene un ID estable (`TIA-Wxx-Sy`) y produce un artefacto verificable.
-4. **Permanencia tecnológica:** los prompts son agnósticos al proveedor y existe una ruta sin IA en tiempo real.
-5. **Ciencia abierta docente:** incluye metadatos de citación, versionado semántico, licencias y una ruta explícita GitHub → release → Zenodo/DOI.
-6. **Evaluación compatible con recursos abiertos:** se evalúa razonamiento, verificación, provenance y defensa, no la capacidad de ocultar el uso de herramientas.
+- 12 semanas y 36 actividades con IDs estables `TIA-Wxx-Sy`;
+- 3 prácticas experimentales de bajo costo;
+- 4 notebooks reproducibles;
+- banco de respuestas de IA para trabajo sin acceso a un modelo en tiempo real;
+- política de IA, bitácoras, rúbricas y matriz DUA–IA;
+- sitio MkDocs/Material desplegable automáticamente con GitHub Actions;
+- metadatos de citación y ruta GitHub → release → Zenodo/DOI.
 
-## Mapa del repositorio
+## Estructura pública
 
 ```text
 TermoIA-UAMC/
-├── README.md
-├── CITATION.cff
-├── codemeta.json
-├── .zenodo.json
-├── CHANGELOG.md
-├── CONTRIBUTING.md
-├── LICENSE-MATERIALS.md
-├── LICENSE-CODE.txt
+├── START_HERE.md
+├── GITHUB_PAGES_SETUP.md
+├── PRIVATE_MATERIALS.md
 ├── mkdocs.yml
-├── requirements.txt
-├── environment.yml
-├── config/
-│   ├── course.yml
-│   └── evaluacion.yml
+├── requirements-docs.txt
+├── .github/workflows/pages.yml
 ├── docs/
 │   ├── index.md
-│   ├── 00_mapa_curso.md
-│   ├── 01_modelo_pedagogico.md
-│   ├── 02_guia_docente.md
-│   ├── 03_guia_estudiante.md
-│   ├── 04_politica_ia.md
-│   ├── 05_dua_accesibilidad.md
-│   ├── 06_evaluacion_rubricas.md
-│   ├── 07_bibliografia.md
-│   ├── 08_versionado_citacion.md
-│   └── 09_operacion_trimestral.md
-├── semanas/
-│   └── semana_01.md ... semana_12.md
-├── practicas/
-│   ├── P01_calorimetria_mezclas.md
-│   ├── P02_hielo_sal_potencial_quimico.md
-│   └── P03_osmosis_tejido_vegetal.md
-├── actividades/
-│   ├── catalogo.csv
-│   ├── banco_salidas_ia_estudiante.md
-│   └── banco_salidas_ia_clave_docente.md
-├── plantillas/
-│   ├── bitacora_ia.md
-│   ├── ficha_actividad.md
-│   ├── informe_practica.md
-│   └── evidencia_multiformato.md
-├── notebooks/
-│   ├── 01_primera_ley.ipynb
-│   ├── 02_entropia_mezcla.ipynb
-│   ├── 03_gibbs_equilibrio.ipynb
-│   └── 04_union_ligando.ipynb
+│   ├── semanas/
+│   ├── practicas/
+│   ├── actividades/
+│   ├── plantillas/
+│   └── notebooks/
+├── config/
 └── tools/
-    ├── generate_problem.py
-    └── validate_repo.py
 ```
 
-## Inicio rápido
+Las claves docentes, datos de estudiantes y evaluaciones reservadas **no forman parte del repositorio público**.
 
-**Docente:** lea `docs/02_guia_docente.md`, congele la versión del repositorio que usará durante el trimestre y publique a estudiantes el mapa de curso y la política de IA. Las ponderaciones sugeridas están en `config/evaluacion.yml` y pueden modificarse sin alterar el núcleo pedagógico.
-
-**Estudiante:** lea `docs/03_guia_estudiante.md` y `docs/04_politica_ia.md`. Para cualquier actividad que use IA, conserve una bitácora siguiendo `plantillas/bitacora_ia.md`.
-
-**Notebooks:**
+## Construcción local del sitio
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate      # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-jupyter lab
+# Windows: .venv\Scripts\activate
+# Linux/macOS: source .venv/bin/activate
+pip install -r requirements-docs.txt
+python tools/validate_repo.py
+mkdocs serve
 ```
 
-## Principio de evaluación
+Para la compilación estricta usada en CI:
 
-Una respuesta producida por IA no obtiene crédito por sí sola. El crédito proviene de la **decisión humana justificable**: identificar supuestos, escoger el sistema y las fronteras, establecer signos y unidades, derivar o reconstruir la relación usada, contrastar la salida con física básica y explicar por qué la conclusión es válida o inválida.
+```bash
+mkdocs build --strict
+```
 
 ## Citación
 
-Use la función **“Cite this repository”** de GitHub cuando `CITATION.cff` esté publicado. Para una versión archivada, cree un release y deposite la versión en Zenodo; después actualice el DOI en `CITATION.cff` y `.zenodo.json` en la siguiente versión. Consulte `docs/08_versionado_citacion.md`.
+Use **Cite this repository** cuando GitHub reconozca `CITATION.cff`. Para versiones archivadas, cree un release y vincule el repositorio con Zenodo. Cite siempre la versión específica utilizada.
 
 ## Licencias
 
-- Materiales docentes, textos, guías y plantillas: **CC BY 4.0**, ver `LICENSE-MATERIALS.md`.
-- Código y notebooks: **MIT**, ver `LICENSE-CODE.txt`.
-
-## Estado
-
-`v1.0.0` es una primera versión completa y utilizable. Los cambios sustantivos al diseño pedagógico deben documentarse en `CHANGELOG.md` y conservar IDs estables cuando el objetivo de aprendizaje no cambie.
+- Materiales docentes: **CC BY 4.0**.
+- Código y notebooks: **MIT**.

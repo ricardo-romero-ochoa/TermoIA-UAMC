@@ -15,7 +15,7 @@ course:
   statistics_in_scope: false
 repository:
   name: "TermoIA-UAMC"
-  version: "1.0.0"
+  version: "1.1.0"
   stable_activity_id_pattern: "TIA-Wxx-Sy"
 ai:
   vendor_neutral: true

@@ -13,7 +13,7 @@ Una actividad docente solo es referenciable si una persona puede saber **qué ve
 1. Publique el repositorio en GitHub.
 2. Proteja la rama principal y use tags (`v1.0.0`, `v1.0.1`, etc.).
 3. Conecte el repositorio a Zenodo.
-4. Cree un GitHub Release para `v1.0.0`.
+4. Cree un GitHub Release para la versión que vaya a archivar, por ejemplo `v1.1.0`.
 5. Zenodo archivará la versión y asignará DOI de versión y DOI conceptual.
 6. En la siguiente revisión, agregue el DOI a `CITATION.cff` y a los metadatos.
 

@@ -42,7 +42,7 @@
 
 **Objetivo.** Explorar sensibilidad de ocupación a Kd y concentración.
 
-**Actividad de enseñanza.** Usar `notebooks/04_union_ligando.ipynb`; cada equipo selecciona parámetros y formula una pregunta.
+**Actividad de enseñanza.** Usar `docs/notebooks/04_union_ligando.ipynb`; cada equipo selecciona parámetros y formula una pregunta.
 
 **Actividad de aprendizaje con IA.** IA propone una interpretación mecanística; estudiantes limitan la conclusión a lo sustentado por el modelo.
 

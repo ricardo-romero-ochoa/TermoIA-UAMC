@@ -41,7 +41,7 @@ Puede usarse IA para reformular lenguaje, generar una explicación alternativa, 
 
 ## 5. Ruta sin IA en tiempo real
 
-El archivo `actividades/banco_salidas_ia_estudiante.md` contiene respuestas ficticias con errores típicos. Esto permite ejecutar la auditoría aun sin cuenta, conectividad o consentimiento para usar una herramienta externa.
+El archivo `docs/actividades/banco_salidas_ia_estudiante.md` contiene respuestas ficticias con errores típicos. Esto permite ejecutar la auditoría aun sin cuenta, conectividad o consentimiento para usar una herramienta externa.
 
 ## 6. Lista rápida de control docente
 

@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.1.0 — 2026-09-14
+
+- Sitio estudiantil listo para GitHub Pages con Material for MkDocs.
+- Workflow oficial de GitHub Actions para validación, compilación y despliegue automático.
+- Navegación completa de 12 semanas, prácticas, plantillas y notebooks desde Pages.
+- Guías docente y estudiantil ampliadas.
+- `START_HERE.md` como puerta de entrada al repositorio.
+- Separación del banco de claves docentes del repositorio público.
+- Validador actualizado para impedir exposición accidental de la clave docente.
+- Notebooks disponibles para descarga desde el sitio y soporte de MathJax para ecuaciones.
+- Instrucciones reproducibles de publicación en `GITHUB_PAGES_SETUP.md`.
+
 ## 1.0.0 — 2026-09-10
 
 - Primera liberación completa.
